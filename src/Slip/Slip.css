@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
+
+.Slip {
+    width: 540px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    padding: 48px;
+    background-color: #313A48;
+    border-radius: 15px;
+    box-sizing: border-box;
+}
+
+.Slip-Id {
+    color: #53FFAA;
+    font-family: Manrope;
+    font-weight: 800;
+    font-size: 13px;
+    line-height: 18px;
+    display: block;
+    text-align: center;
+    letter-spacing: 4.08571px;
+}
+
+.Advice {
+    margin: 24px 0px 40px;
+    font-family: Manrope;
+    font-weight: 800;
+    font-size: 28px;
+    line-height: 38px;
+    display: block;
+    text-align: center;
+    letter-spacing: -0.3px;
+    color: #CEE3E9;
+}
+
+.Divider {
+    display: inline-block;
+    margin-bottom: 40px;
+}
+
+.Dice {
+    position: absolute;
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    background-color: #53FFAA;
+    text-align: center;
+    left: 240px;
+    bottom: -32px;
+    cursor: pointer;
+    transition: box-shadow 150ms ease-in-out;
+}
+
+.Dice:hover {
+    box-shadow: 0 0 25px 5px #53FFAA; /* outer cyan */
+}
+
+.Dice img {
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
