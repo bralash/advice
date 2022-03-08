@@ -3,7 +3,7 @@ import divider from './divider.svg'
 import dice from './dice.svg'
 import React, { useState, useEffect } from 'react'
 
-const Quote = () => {
+const Slip = () => {
     const [isLoading, setIsLoading] = useState(true)
     const [slip, setSlip] = useState([]);
     const [showSlip, setShowSlip] = useState(false)
@@ -52,4 +52,4 @@ const Quote = () => {
     )
 }
 
-export default Quote
+export default Slip

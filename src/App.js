@@ -1,10 +1,10 @@
 import './App.css';
-import Quote from './Slip/Slip';
+import Slip from './Slip/Slip';
 
 const App = () => {
   return (
     <div className="App">
-      <Quote />
+      <Slip />
     </div>
   );
 }
