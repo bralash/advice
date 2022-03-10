@@ -6,11 +6,11 @@ import React, { useState, useEffect } from 'react'
 const Slip = () => {
     const [isLoading, setIsLoading] = useState(true)
     const [slip, setSlip] = useState([]);
-    const [showSlip, setShowSlip] = useState(false)
+    // const [showSlip, setShowSlip] = useState(false)
 
     const handleClick = () => {
         setIsLoading(true);
-        setShowSlip(true);
+        // setShowSlip(true);
         const url = 'https://api.adviceslip.com/advice';
         fetch(url)
             .then((response) => response.json())
